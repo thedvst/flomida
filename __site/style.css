@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    list-style: none;
+    color: #3D3D3D;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFFAEC;
+}
+
+.header{
+    background-color: #FFFAEC;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    border-bottom: 2px solid rgba(0,0,0,.1);
+}
+
+.header__logo{
+    margin-left: 12vw;
+    width: 70vw;
+    min-height: 50px;
+}
+
+.header__logo-img{
+    width: auto;
+    height: 70px;
+}
+
+.header__login-ico{
+    margin-top: 5px;
+    width: auto;
+    opacity: 1;
+    height: 21px;
+    margin-right: 12vw;
+}
+
+.header__nav-list{
+    display: flex;
+}
+
+.header__nav-item{
+    margin-right: 45px;
+    white-space: nowrap; 
+}
+
+.main{
+    padding-top: 50px;
+}
+
+.main__greet__bg{
+    width: 100%;
+    height: 17vh;
+    display: inline-block;
+    align-items: center;
+}
+
+.main__greet__tx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    width: 100%; 
+    font-weight: bolder;
+    font-size: 160px;
+    user-select: none; 
+}
+
+.main__greet__tx-h{
+    color: #F5ECD5;
+}
+
+.main__greet__txun-p{
+    color: #FFFAEC;
+    user-select: none; 
+}
+
+.main__greet__txun{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.main__greet__txun-p{
+    font-size: 65px;
+}
+
+.main__greet__bg-img{
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.main__content{
+    background-color: #FFFAEC;
+    margin-top: 40vh;
+    padding: 100px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.main__content__deals__list{
+    display: flex;
+    width: 100%;
+}
+
+.main__content__deals__list-stock{
+    width: 33.3%;
+    height: 33.3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+}
+
+.main__content__deals__list-img{
+    width: 100%;
+    border: 2px solid rgba(0,0,0,.1);
+}
+
+.main__content__deals__list__text-p{
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+}
+
+.main__content__deals__list__text-name{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+}
+
+.span-pold{
+    text-decoration: line-through;
+    color: #EA4E4E;
+}
+
+.main__content__email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F5ECD5;
+    padding: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main__content__email-p{
+    user-select: none; 
+    font-size: 40px;
+    color: #578E7E;
+    margin-bottom: 30px;
+}
+
+.main__content__email-mail{
+    color: #3D3D3D;
+    padding: 2px;
+    padding-left: 12px;
+    font-size: 22px;
+    border-radius: 40px;
+    border: solid 2px rgba(0,0,0,.25);
+    width: 40%;
+}
+
+.main__content__email-mail:focus{
+    outline: none;
+    border: solid 2px #578E7E;
+}
+
+.main__content__email-input{
+    color: #F5ECD5;
+    background-color: #578E7E;
+    border: 0px;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.main__footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    padding-top: 10px;
+    background-color: #578E7E;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.main__footer__logo-img{
+    width: 250px;
+    height: auto;
+    padding-right: 90px;
+}
+
+.main__footer-span{
+    padding-top: 10px;
+    display: flex;
+}
+
+.main__footer-span1{
+    padding-left: 100px;
+}
+
+.main__footer-span1 p{
+    color:#FFFAEC;
+    font-size: 20px;
+    white-space: nowrap; 
+    line-height: 50px;
+    user-select: none; 
+}
+
+.main__footer-span1 a{
+    display: flex;
+    color: #FFFAEC;
+    font-size: 15px;
+    font-weight: 300;
+    white-space: nowrap; 
+    line-height: 35px;
+}
+
+.flomida{
+    font-family: "Playfair Display", serif;
+    color: #FFFAEC;
+}
